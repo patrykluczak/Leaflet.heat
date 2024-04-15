@@ -1,6 +1,6 @@
 {
   "name": "@patrykluczak/leaflet.heat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny and fast Leaflet heatmap plugin.",
   "homepage": "https://github.com/patrykluczak/Leaflet.heat",
   "keywords": [
@@ -14,7 +14,7 @@
   "author": "Vladimir Agafonkin",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Leaflet/Leaflet.heat.git"
+    "url": "git@github.com:patrykluczak/Leaflet.heat.git"
   },
   "main": "dist/leaflet-heat.js",
   "devDependencies": {
