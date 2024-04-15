@@ -1,5 +1,5 @@
 {
-  "name": "patrykluczak/leaflet.heat",
+  "name": "@patrykluczak/leaflet.heat",
   "version": "1.0.0",
   "description": "A tiny and fast Leaflet heatmap plugin.",
   "homepage": "https://github.com/Leaflet/Leaflet.heat",
