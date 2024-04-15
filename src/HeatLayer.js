@@ -32,11 +32,11 @@ L.HeatLayer = (L.Layer ? L.Layer : L.Class).extend({
         }
         return this.redraw();
     },
-    
+
     getBounds: function () {
-        return L.latLngBounds(this._latlngs);  
+        return L.latLngBounds(this._latlngs);
     },
-    
+
     redraw: function () {
         if (this._heat && !this._frame && this._map && !this._map._animating) {
             this._frame = L.Util.requestAnimFrame(this._redraw, this);
@@ -171,7 +171,7 @@ L.HeatLayer = (L.Layer ? L.Layer : L.Class).extend({
                 } else {
                     cell[0] = (cell[0] * cell[2] + p.x * k) / (cell[2] + k); // x
                     cell[1] = (cell[1] * cell[2] + p.y * k) / (cell[2] + k); // y
-                    cell[2] += k; // cumulated intensity value
+                    // cell[2] += k; // cumulated intensity value
                 }
             }
         }
